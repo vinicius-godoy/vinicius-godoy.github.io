@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://vinicius-godoy.github.io/cleanfolio',
+  title: '<vinicius-godoy>',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Vinícius Godoy',
+  role: 'Full Stack Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Brazilian Full Stack Developer working with React and NodeJS to bring websites to life.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/-vinicius-godoy/',
+    github: 'https://github.com/vinicius-godoy',
   },
 }
 
@@ -21,51 +21,45 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Netflix Clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Recreation of the Netflix interface using HTML, CSS and JavaScript',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/vinicius-godoy/Interface-Netflix',
   },
   {
-    name: 'Project 2',
+    name: 'Snake Game',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Snake Game created with CSS and JavaScript to practice JSs Documento Object Model',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    sourceCode: 'https://github.com/vinicius-godoy/Jogo-Cobrinha',
   },
   {
-    name: 'Project 3',
+    name: 'Alurakut',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Project done during the React Imersion made by Alura, has the purpose of being a copy of the old Orkut using React and NextJS to practice its contents.',
+    stack: ['React', 'NextJS', 'CSS'],
+    sourceCode: 'https://github.com/vinicius-godoy/alurakut',
+    livePreview: 'https://alurakut-vinicius-godoy.vercel.app/login',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Git',
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'NextJS',
+  'Node',
+  'SQL',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'v.godoyrodriguesh@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
